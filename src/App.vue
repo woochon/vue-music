@@ -24,6 +24,7 @@ export default {
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background-color: $color-background;
+  height: 100%;
   color: $color-text;
 }
 </style>
