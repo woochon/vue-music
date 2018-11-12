@@ -1,21 +1,4 @@
 # vue-music
+##11-11  页面组件的基本搭建
+##11-12  本地存储(localStorage和cookie封装),引入全局样式normalize.css,jsonp封装获取数据以及轮播图封装
 
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

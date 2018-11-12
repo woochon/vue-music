@@ -21,10 +21,6 @@ export default {
 <style lang="scss">
 @import  'common/scss/index.scss';
 @import  'common/scss/variable.scss';
-*{
-  margin: 0;
-  padding: 0;
-}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   background-color: $color-background;
