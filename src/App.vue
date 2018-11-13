@@ -2,7 +2,9 @@
   <div id="app">
     <m-header></m-header>
     <tab></tab>
-    <router-view></router-view>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
@@ -20,11 +22,4 @@ export default {
 
 <style lang="scss">
 @import  'common/scss/index.scss';
-@import  'common/scss/variable.scss';
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  background-color: $color-background;
-  height: 100%;
-  color: $color-text;
-}
 </style>
