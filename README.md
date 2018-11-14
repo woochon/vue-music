@@ -12,7 +12,12 @@
 ## 11-14 图片懒加载和弹框组件
 >vue-lazy-load
 ``` bash
-
+import VueLazyLoad from 'vue-lazyload'
+Vue.use(VueLazyLoad, {
+  error: './static/error.jpg',
+  loading: './static/loading.gif'
+})
+```
 
 >请求参数没有携带过去：1.params  2.Object.assign()拼写错误
 
