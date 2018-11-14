@@ -39,7 +39,7 @@ export default {
       this.scroll && this.scroll.enable()
     },
     disable () {
-      this.scroll && this.scroll.enable()
+      this.scroll && this.scroll.disable()
     },
     refresh () {
       this.scroll && this.scroll.refresh()
