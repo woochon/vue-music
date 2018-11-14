@@ -6,7 +6,7 @@
           <slider>
             <div v-for="(item,index) in recommends" :key="index">
               <a :href="item.linkUrl">
-                <img :src="item.picUrl" @load="loadImage" alt="">
+                <img class="needsClick" :src="item.picUrl" @load="loadImage" alt="">
               </a>
             </div>
           </slider>
@@ -26,6 +26,9 @@
           </ul>
         </div>
       </div>
+      <div class="loading-container" v-show="!discList.length">
+        <loading></loading>
+      </div>
     </Scroll>
   </div>
 </template>
@@ -34,6 +37,7 @@ import { getRecommend, getDiscList } from 'api/recommend'
 import {ERR_OK} from 'api/config'
 import slider from 'base/slider/slider'
 import Scroll from 'base/scroll/scroll'
+import Loading from 'base/loading/loading'
 export default{
   name: 'recommend',
   data () {
@@ -45,11 +49,14 @@ export default{
   },
   created () {
     this._getRecommend()
-    this._getDiscList()
+    setTimeout(() => {
+      this._getDiscList()
+    }, 1000)
   },
   components: {
     slider,
-    Scroll
+    Scroll,
+    Loading
   },
   methods: {
     _getRecommend () {

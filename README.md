@@ -23,3 +23,7 @@ Vue.use(VueLazyLoad, {
 
 >滚动的时候，歌单详情页会在轮播图上，原因是scroll下面没有将轮播图和歌单详情用一个div包裹起来
 
+>img v-lazy 和scroll冲突  需要一个class="needsclick"
+
+>loading插件的书写
+
