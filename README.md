@@ -27,3 +27,5 @@ Vue.use(VueLazyLoad, {
 
 >loading插件的书写
 
+## 11-15歌手页面左右联动
+
