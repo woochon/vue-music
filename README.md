@@ -27,3 +27,7 @@ Vue.use(VueLazyLoad, {
 
 >loading插件的书写
 
+## 11-19 歌手页左右滚动(联动)
+
+  点击事件，触摸事件，获取dom属性(data-*)
+
