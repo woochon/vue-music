@@ -40,6 +40,7 @@ export default {
       })
 
       if (this.listenScroll) {
+        // better-scroll里面的this默认指向scroll
         let me = this
         this.scroll.on('scroll', (pos) => {
           me.$emit('scroll', pos)

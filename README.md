@@ -33,5 +33,6 @@ Vue.use(VueLazyLoad, {
 
   点击事件，触摸事件，获取dom属性(data-*)
 
+## 12-13 歌手页开发完成
 
 
