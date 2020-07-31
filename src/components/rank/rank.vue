@@ -1,6 +1,6 @@
 <template>
   <div>
-    排行页面123456789
+    排行页面123456789哇UFHASIDH
   </div>
 </template>
 <script>
