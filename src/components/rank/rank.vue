@@ -1,6 +1,7 @@
 <template>
   <div>
     排行页面123456789哇UFHASIDH
+    添加权限进行文件删除操作
   </div>
 </template>
 <script>
